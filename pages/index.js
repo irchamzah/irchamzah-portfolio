@@ -738,7 +738,7 @@ export default function Home() {
                     >
                       <div>
                         <div className="font-semibold text-gray-200 md:text-xl">
-                          TK Al Asy'ari
+                          TK Al Asy&apos;ari
                         </div>
                         <div className="text-xs text-gray-400 italic md:text-sm">
                           Wonosari Bondowoso
