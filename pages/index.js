@@ -652,9 +652,9 @@ export default function Home() {
                     <p className="text-sm md:text-base mt-5 text-gray-300">
                       Koltiva is a technology-enabled service company. Koltiva
                       support some of the largest multinational companies by
-                      digitizing and verifying global supply chains. Koltiva's
-                      focus is to enhance traceability, inclusiveness, and
-                      sustainability.
+                      digitizing and verifying global supply chains.
+                      Koltiva&apos;s focus is to enhance traceability,
+                      inclusiveness, and sustainability.
                     </p>
                     <div className="text-sm md:text-base text-gray-300">
                       <ul className="list-disc list-outside ms-5">
