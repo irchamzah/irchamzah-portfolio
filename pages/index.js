@@ -93,7 +93,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* Portfolio Section */}
+          {/* Web Portfolio Section */}
           <section className="pt-20 pb-10">
             <div className="container px-5 mx-auto">
               <div className="flex items-center gap-4">
@@ -180,12 +180,60 @@ export default function Home() {
                         Next JS, React JS, TypeScript, MongoDB
                       </div>
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
-                      <p className="text-gray-400 text-xs text-justify xl:text-sm">
+                      <div className="text-gray-400 text-xs text-justify xl:text-sm">
                         {/* Latihan membuat website sosial media seperti thread. */}
                         Practice creating a social media website like a thread.
+                        <br />
+                        <br />
+                        <a href="" className="underline text-sky-500">
+                          Website creation process
+                        </a>
+                      </div>
+                    </div>
+                    <p className="mt-4 text-xs text-sky-500">Irchamzah</p>
+                  </div>
+                </a>
+                <a
+                  href="https://irchamzah-portfolio.vercel.app/"
+                  target="_blank"
+                  className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 hover:opacity-70 duration-200 md:min-w-full"
+                >
+                  <div className="relative">
+                    <div className="h-50 overflow-hidden">
+                      <Image
+                        src={"/portfolio_website/irchamzah_portfolio.png"}
+                        alt=""
+                        height={350}
+                        width={350}
+                        className="h-40 object-cover"
+                      />
+                    </div>
+                    <div className="absolute left-0 top-0">
+                      <p className="bg-black bg-opacity-50 m-3 px-3 py-1 text-xs rounded">
+                        Web
                       </p>
                     </div>
-                    <p className="mt-4 text-xs text-sky-500">-</p>
+                  </div>
+                  <div className="flex flex-col justify-between h-full p-4">
+                    <div>
+                      <div className="text-base font-bold text-sky-500 xl:text-lg">
+                        Irchamzah Portfolio
+                      </div>
+                      <div className="text-gray-400 text-xs mt-1">
+                        Next JS, React JS, TypeScript
+                      </div>
+                      <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
+                      <div className="text-gray-400 text-xs text-justify xl:text-sm">
+                        {/* Latihan membuat website sosial media seperti thread. */}
+                        Practice creating a portfolio website like a thread.{" "}
+                        <br />
+                        <br />
+                        <a href="" className="underline text-sky-500">
+                          Website creation process
+                        </a>
+                      </div>
+                    </div>
+                    <p className="mt-4 text-xs text-sky-500">Irchamzah</p>
                   </div>
                 </a>
                 <a
