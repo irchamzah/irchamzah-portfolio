@@ -60,7 +60,7 @@ export default function Home() {
                         Irchamzah Fikri Ababil
                       </h2>
                       <h3 className="mt-3 text-sky-500 md:text-xl lg:text-2xl">
-                        Web Developer & Illustrator
+                        Web Developer
                       </h3>
                     </div>
                     <div className="object-cover overflow-hidden bg-gray-300 w-32 h-32 relative mx-auto my-auto  justify-end md:hidden">
@@ -698,7 +698,7 @@ export default function Home() {
                       }`}
                       onClick={() => updateToggle(3)}
                     >
-                      Freelance Illustration
+                      Freelance Illustrator
                     </button>
                   </li>
                 </ul>
