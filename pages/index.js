@@ -105,13 +105,14 @@ export default function Home() {
             </div>
             <div className="container px-5 mx-auto mt-8 md:mt-12">
               <div className="flex gap-6 overflow-x-scroll no-scrollbar md:grid md:grid-cols-3 lg:grid-cols-4">
-                <a
-                  href="https://www.youtube.com/watch?v=FkZSDkBGqc4
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
+                    href="https://www.youtube.com/watch?v=FkZSDkBGqc4
                   "
-                  target="_blank"
-                  className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 hover:opacity-70 duration-200 md:min-w-full"
-                >
-                  <div className="relative">
+                    target="_blank"
+                  >
                     <div className=" overflow-hidden">
                       <Image
                         src={"/portfolio_website/IBKWU.png"}
@@ -126,12 +127,16 @@ export default function Home() {
                         Web
                       </p>
                     </div>
-                  </div>
+                  </a>
                   <div className="flex flex-col justify-between h-full p-4">
                     <div>
-                      <div className="text-base font-bold text-sky-500 xl:text-lg">
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://www.youtube.com/watch?v=FkZSDkBGqc4"
+                        target="_blank"
+                      >
                         IBKWU Polije
-                      </div>
+                      </a>
                       <div className="text-gray-400 text-xs mt-1">
                         Laravel, MySQL, Tailwind CSS
                       </div>
@@ -149,13 +154,14 @@ export default function Home() {
                       Politeknik Negeri Jember
                     </p>
                   </div>
-                </a>
-                <a
-                  href="https://irc-portfolio.vercel.app/"
-                  target="_blank"
-                  className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 hover:opacity-70 duration-200 md:min-w-full"
-                >
-                  <div className="relative">
+                </div>
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
+                    href="https://irc-portfolio.vercel.app/"
+                    target="_blank"
+                  >
                     <div className="h-50 overflow-hidden">
                       <Image
                         src={"/portfolio_website/irc_sosmed.png"}
@@ -170,12 +176,16 @@ export default function Home() {
                         Web
                       </p>
                     </div>
-                  </div>
+                  </a>
                   <div className="flex flex-col justify-between h-full p-4">
                     <div>
-                      <div className="text-base font-bold text-sky-500 xl:text-lg">
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://irc-portfolio.vercel.app/"
+                        target="_blank"
+                      >
                         Irc Social Media
-                      </div>
+                      </a>
                       <div className="text-gray-400 text-xs mt-1">
                         Next JS, React JS, TypeScript, MongoDB
                       </div>
@@ -185,20 +195,25 @@ export default function Home() {
                         Practice creating a social media website like a thread.
                         <br />
                         <br />
-                        <a href="" className="underline text-sky-500">
-                          Website creation process
+                        <a
+                          href="#"
+                          target="_blank"
+                          className="underline text-sky-500 hover:opacity-80 duration-200"
+                        >
+                          Website creation video
                         </a>
                       </div>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">Irchamzah</p>
                   </div>
-                </a>
-                <a
-                  href="https://irchamzah-portfolio.vercel.app/"
-                  target="_blank"
-                  className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 hover:opacity-70 duration-200 md:min-w-full"
-                >
-                  <div className="relative">
+                </div>
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
+                    href="https://irchamzah-portfolio.vercel.app/"
+                    target="_blank"
+                  >
                     <div className="h-50 overflow-hidden">
                       <Image
                         src={"/portfolio_website/irchamzah_portfolio.png"}
@@ -213,35 +228,44 @@ export default function Home() {
                         Web
                       </p>
                     </div>
-                  </div>
+                  </a>
                   <div className="flex flex-col justify-between h-full p-4">
                     <div>
-                      <div className="text-base font-bold text-sky-500 xl:text-lg">
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://irchamzah-portfolio.vercel.app/"
+                        target="_blank"
+                      >
                         Irchamzah Portfolio
-                      </div>
+                      </a>
                       <div className="text-gray-400 text-xs mt-1">
                         Next JS, React JS, TypeScript
                       </div>
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
                       <div className="text-gray-400 text-xs text-justify xl:text-sm">
                         {/* Latihan membuat website sosial media seperti thread. */}
-                        Practice creating a portfolio website like a thread.{" "}
+                        Practice creating a portfolio website
                         <br />
                         <br />
-                        <a href="" className="underline text-sky-500">
-                          Website creation process
+                        <a
+                          href="#"
+                          target="_blank"
+                          className="underline text-sky-500 hover:opacity-80 duration-200"
+                        >
+                          Website creation video
                         </a>
                       </div>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">Irchamzah</p>
                   </div>
-                </a>
-                <a
-                  href="https://www.youtube.com/watch?v=FPcHrprWOJ8"
-                  target="_blank"
-                  className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 hover:opacity-70 duration-200 md:min-w-full"
-                >
-                  <div className="relative">
+                </div>
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
+                    href="https://www.youtube.com/watch?v=FPcHrprWOJ8"
+                    target="_blank"
+                  >
                     <div className="h-50 overflow-hidden">
                       <Image
                         src={"/portfolio_website/KBN.png"}
@@ -256,12 +280,16 @@ export default function Home() {
                         App
                       </p>
                     </div>
-                  </div>
+                  </a>
                   <div className="flex flex-col justify-between h-full p-4">
                     <div>
-                      <div className="text-base font-bold text-sky-500 xl:text-lg">
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://www.youtube.com/watch?v=FPcHrprWOJ8"
+                        target="_blank"
+                      >
                         KBN App
-                      </div>
+                      </a>
                       <div className="text-gray-400 text-xs mt-1">MATLAB</div>
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
                       <p className="text-gray-400 text-xs text-justify xl:text-sm">
@@ -275,13 +303,14 @@ export default function Home() {
                       Kelompok Golongan C
                     </p>
                   </div>
-                </a>
-                <a
-                  href="https://www.youtube.com/watch?v=gyDoLoOcLwk"
-                  target="_blank"
-                  className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 hover:opacity-70 duration-200 md:min-w-full"
-                >
-                  <div className="relative">
+                </div>
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
+                    href="https://www.youtube.com/watch?v=gyDoLoOcLwk"
+                    target="_blank"
+                  >
                     <div className="h-50 overflow-hidden">
                       <Image
                         src={"/portfolio_website/sipapah.png"}
@@ -296,12 +325,16 @@ export default function Home() {
                         Web
                       </p>
                     </div>
-                  </div>
+                  </a>
                   <div className="flex flex-col justify-between h-full p-4">
                     <div>
-                      <div className="text-base font-bold text-sky-500 xl:text-lg">
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://www.youtube.com/watch?v=gyDoLoOcLwk"
+                        target="_blank"
+                      >
                         SIPAPAH - Sistem Informasi Pengolah Sampah
-                      </div>
+                      </a>
                       <div className="text-gray-400 text-xs mt-1">
                         Laravel, Bootstrap, MySQL
                       </div>
@@ -321,13 +354,14 @@ export default function Home() {
                       Kelompok 1 Golongan B
                     </p>
                   </div>
-                </a>
-                <a
-                  href="https://github.com/NaufalMahdi/sweetacollection/graphs/contributors"
-                  target="_blank"
-                  className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 hover:opacity-70 duration-200 md:min-w-full"
-                >
-                  <div className="relative">
+                </div>
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
+                    href="https://github.com/NaufalMahdi/sweetacollection/graphs/contributors"
+                    target="_blank"
+                  >
                     <div className="h-50 overflow-hidden">
                       <Image
                         src={"/portfolio_website/noimage.jpg"}
@@ -342,12 +376,16 @@ export default function Home() {
                         Web
                       </p>
                     </div>
-                  </div>
+                  </a>
                   <div className="flex flex-col justify-between h-full p-4">
                     <div>
-                      <div className="text-base font-bold text-sky-500 xl:text-lg">
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://github.com/NaufalMahdi/sweetacollection/graphs/contributors"
+                        target="_blank"
+                      >
                         Sweeta Collection
-                      </div>
+                      </a>
                       <div className="text-gray-400 text-xs mt-1">
                         React JS, Tailwind CSS, Prisma, MongoDB
                       </div>
@@ -363,7 +401,7 @@ export default function Home() {
                       Kelompok Golongan C
                     </p>
                   </div>
-                </a>
+                </div>
               </div>
             </div>
           </section>
