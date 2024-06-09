@@ -193,15 +193,6 @@ export default function Home() {
                       <div className="text-gray-400 text-xs text-justify xl:text-sm">
                         {/* Latihan membuat website sosial media seperti thread. */}
                         Practice creating a social media website like a thread.
-                        <br />
-                        <br />
-                        <a
-                          href="#"
-                          target="_blank"
-                          className="underline text-sky-500 hover:opacity-80 duration-200"
-                        >
-                          Website creation video
-                        </a>
                       </div>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">Irchamzah</p>
@@ -245,15 +236,6 @@ export default function Home() {
                       <div className="text-gray-400 text-xs text-justify xl:text-sm">
                         {/* Latihan membuat website sosial media seperti thread. */}
                         Practice creating a portfolio website
-                        <br />
-                        <br />
-                        <a
-                          href="#"
-                          target="_blank"
-                          className="underline text-sky-500 hover:opacity-80 duration-200"
-                        >
-                          Website creation video
-                        </a>
                       </div>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">Irchamzah</p>
