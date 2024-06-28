@@ -138,7 +138,7 @@ export default function Home() {
                         Japernik (Jasa Pernikahan)
                       </a>
                       <div className="text-gray-400 text-xs mt-1">
-                        Next JS, Prisma, PostgreSQL
+                        Next JS, Prisma, PostgreSQL, Tailwind CSS
                       </div>
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
                       <p className="text-gray-400 text-xs text-justify xl:text-sm">
