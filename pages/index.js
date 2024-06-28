@@ -151,7 +151,7 @@ export default function Home() {
                       </p>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">
-                      Politeknik Negeri Jember
+                      Created By Irchamzah
                     </p>
                   </div>
                 </div>
@@ -201,7 +201,7 @@ export default function Home() {
                       </p>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">
-                      Politeknik Negeri Jember
+                      Created By Irchamzah
                     </p>
                   </div>
                 </div>
@@ -245,7 +245,9 @@ export default function Home() {
                         Practice creating a social media website like a thread.
                       </div>
                     </div>
-                    <p className="mt-4 text-xs text-sky-500">Irchamzah</p>
+                    <p className="mt-4 text-xs text-sky-500">
+                      Created By Irchamzah
+                    </p>
                   </div>
                 </div>
                 {/*  */}
@@ -288,7 +290,9 @@ export default function Home() {
                         Practice creating a portfolio website
                       </div>
                     </div>
-                    <p className="mt-4 text-xs text-sky-500">Irchamzah</p>
+                    <p className="mt-4 text-xs text-sky-500">
+                      Created By Irchamzah
+                    </p>
                   </div>
                 </div>
                 {/*  */}
@@ -332,7 +336,7 @@ export default function Home() {
                       </p>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">
-                      Kelompok Golongan C
+                      Created By Irchamzah & Kelompok Golongan C
                     </p>
                   </div>
                 </div>
@@ -383,7 +387,7 @@ export default function Home() {
                       </p>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">
-                      Kelompok 1 Golongan B
+                      Created By Irchamzah & Kelompok 1 Golongan B
                     </p>
                   </div>
                 </div>
@@ -430,7 +434,7 @@ export default function Home() {
                       </p>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">
-                      Kelompok Golongan C
+                      Created By Irchamzah & Kelompok Golongan C
                     </p>
                   </div>
                 </div>
