@@ -109,6 +109,56 @@ export default function Home() {
                 <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
                   <a
                     className="relative hover:opacity-70 duration-200"
+                    href="http://japernik.vercel.app/
+                  "
+                    target="_blank"
+                  >
+                    <div className=" overflow-hidden">
+                      <Image
+                        src={"/portfolio_website/japernik.png"}
+                        alt=""
+                        height={350}
+                        width={350}
+                        className="h-40 object-cover"
+                      />
+                    </div>
+                    <div className="absolute left-0 top-0">
+                      <p className="bg-black bg-opacity-50 m-3 px-3 py-1 text-xs rounded">
+                        Web
+                      </p>
+                    </div>
+                  </a>
+                  <div className="flex flex-col justify-between h-full p-4">
+                    <div>
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="http://japernik.vercel.app/"
+                        target="_blank"
+                      >
+                        Japernik (Jasa Pernikahan)
+                      </a>
+                      <div className="text-gray-400 text-xs mt-1">
+                        Next JS, Prisma, PostgreSQL
+                      </div>
+                      <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
+                      <p className="text-gray-400 text-xs text-justify xl:text-sm">
+                        {/* Sebuah website company profile milik IBKWU Politeknik
+                        Negeri Jember yang menampilkan informasi-informasi
+                        terbaru dari IBKWU Polije. */}
+                        Sebuah website yang menyediakan berbagai macam kebutuhan
+                        persiapan pernikahan. (website ini masih dalam tahap
+                        pengembangan)
+                      </p>
+                    </div>
+                    <p className="mt-4 text-xs text-sky-500">
+                      Politeknik Negeri Jember
+                    </p>
+                  </div>
+                </div>
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
                     href="https://www.youtube.com/watch?v=FkZSDkBGqc4
                   "
                     target="_blank"
