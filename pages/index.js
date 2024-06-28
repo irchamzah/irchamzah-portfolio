@@ -160,7 +160,7 @@ export default function Home() {
                         Japernik (Jasa Pernikahan)
                       </a>
                       <div className="text-gray-400 text-xs mt-1">
-                        Next JS, Prisma, PostgreSQL, Tailwind CSS
+                        Next JS, TypeScript, Prisma, PostgreSQL, Tailwind CSS
                       </div>
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
                       <p className="text-gray-400 text-xs text-justify xl:text-sm">
@@ -505,6 +505,25 @@ export default function Home() {
               <div className="grid grid-cols-4 gap-y-16 gap-x-10 justify-stretch md:gap-x-32">
                 {/*  */}
                 {/*  */}
+                <div className="tailwindcss flex flex-col items-center hover:opacity-60 transition duration-200">
+                  <div className="relative p-2 w-full">
+                    <div className="">
+                      <SiTailwindcss
+                        height={128}
+                        width={128}
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
+                      />
+                    </div>
+                    <p className="absolute right-0 top-0 bg-indigo-500 rounded-full px-[6px] py-[2px] text-[10px]">
+                      Fluent
+                    </p>
+                  </div>
+                  <div className="text-[10px] md:text-sm text-nowrap">
+                    Tailwind CSS
+                  </div>
+                </div>
+                {/*  */}
+                {/*  */}
                 <div className="nexjs flex flex-col items-center hover:opacity-60 transition duration-200">
                   <div className="relative p-2 w-full">
                     <div className="">
@@ -601,25 +620,7 @@ export default function Home() {
                   </div>
                   <div className="text-[10px] md:text-sm">PostgreSQL</div>
                 </div>
-                {/*  */}
-                {/*  */}
-                <div className="tailwindcss flex flex-col items-center hover:opacity-60 transition duration-200">
-                  <div className="relative p-2 w-full">
-                    <div className="">
-                      <SiTailwindcss
-                        height={128}
-                        width={128}
-                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
-                      />
-                    </div>
-                    <p className="absolute right-0 top-0 bg-indigo-500 rounded-full px-[6px] py-[2px] text-[10px]">
-                      Fluent
-                    </p>
-                  </div>
-                  <div className="text-[10px] md:text-sm text-nowrap">
-                    Tailwind CSS
-                  </div>
-                </div>
+
                 {/*  */}
                 {/*  */}
                 <div className="laravel flex flex-col items-center hover:opacity-60 transition duration-200">
