@@ -1050,7 +1050,7 @@ export default function Home() {
                     </div>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/irchamzah-fikri-ababil-b74008262/"
+                    href="www.linkedin.com/in/irchamzah"
                     className="flex items-center gap-2 hover:opacity-60 transition duration-200"
                   >
                     <div className="text-xl md:text-2xl">
