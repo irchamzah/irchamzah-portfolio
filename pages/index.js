@@ -1,11 +1,33 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
+import {
+  BiLogoJavascript,
+  BiLogoPostgresql,
+  BiLogoTypescript,
+} from "react-icons/bi";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoSquareSharp } from "react-icons/io5";
 import { MdFileDownload, MdOutlineEmail } from "react-icons/md";
+import { RiJavascriptFill } from "react-icons/ri";
+import {
+  SiBootstrap,
+  SiCss3,
+  SiHtml5,
+  SiJavascript,
+  SiKotlin,
+  SiLaravel,
+  SiMysql,
+  SiNextdotjs,
+  SiPhp,
+  SiPostgresql,
+  SiPrisma,
+  SiReact,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
 
 export default function Home() {
   const [toggle, setToggle] = useState(1);
@@ -146,13 +168,111 @@ export default function Home() {
                         persiapan pernikahan. (website ini masih dalam tahap
                         pengembangan)  */}
                         A website that provides a variety of wedding preparation
-                        needs. (This website is still under development) - This
-                        website was created from 9 June 2024 to Present.
+                        needs. (This website is still under development)
                       </p>
                     </div>
-                    <p className="mt-4 text-xs text-sky-500">
-                      Created By Irchamzah
-                    </p>
+                    <div>
+                      <p className="mt-4 text-xs text-sky-500">
+                        Created at 9 June 2024 - Present
+                      </p>
+                      <p className="mt-1 text-xs text-sky-500">By Irchamzah</p>
+                    </div>
+                  </div>
+                </div>
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
+                    href="https://irchamzah-portfolio.vercel.app/"
+                    target="_blank"
+                  >
+                    <div className="h-50 overflow-hidden">
+                      <Image
+                        src={"/portfolio_website/irchamzah_portfolio.png"}
+                        alt=""
+                        height={350}
+                        width={350}
+                        className="h-40 object-cover"
+                      />
+                    </div>
+                    <div className="absolute left-0 top-0">
+                      <p className="bg-black bg-opacity-50 m-3 px-3 py-1 text-xs rounded">
+                        Web
+                      </p>
+                    </div>
+                  </a>
+                  <div className="flex flex-col justify-between h-full p-4">
+                    <div>
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://irchamzah-portfolio.vercel.app/"
+                        target="_blank"
+                      >
+                        Irchamzah Portfolio
+                      </a>
+                      <div className="text-gray-400 text-xs mt-1">
+                        Next JS, React JS, TypeScript
+                      </div>
+                      <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
+                      <div className="text-gray-400 text-xs text-justify xl:text-sm">
+                        {/* Latihan membuat website sosial media seperti thread. */}
+                        Practice creating a portfolio website.
+                      </div>
+                    </div>
+                    <div>
+                      <p className="mt-4 text-xs text-sky-500">
+                        Created at 20 April 2024 - 5 May 2024
+                      </p>
+                      <p className="mt-1 text-xs text-sky-500">By Irchamzah</p>
+                    </div>
+                  </div>
+                </div>
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
+                    href="https://irc-portfolio.vercel.app/"
+                    target="_blank"
+                  >
+                    <div className="h-50 overflow-hidden">
+                      <Image
+                        src={"/portfolio_website/irc_sosmed.png"}
+                        alt=""
+                        height={350}
+                        width={350}
+                        className="h-40 object-cover"
+                      />
+                    </div>
+                    <div className="absolute left-0 top-0">
+                      <p className="bg-black bg-opacity-50 m-3 px-3 py-1 text-xs rounded">
+                        Web
+                      </p>
+                    </div>
+                  </a>
+                  <div className="flex flex-col justify-between h-full p-4">
+                    <div>
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://irc-portfolio.vercel.app/"
+                        target="_blank"
+                      >
+                        Irc Social Media
+                      </a>
+                      <div className="text-gray-400 text-xs mt-1">
+                        Next JS, React JS, TypeScript, MongoDB
+                      </div>
+                      <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
+                      <div className="text-gray-400 text-xs text-justify xl:text-sm">
+                        {/* Latihan membuat website sosial media seperti thread. */}
+                        Practice creating a social media website like a thread.
+                      </div>
+                    </div>
+                    <div>
+                      <p className="mt-4 text-xs text-sky-500">
+                        Created at 23 March 2024 - 13 April 2024
+                      </p>
+                      <p className="mt-1 text-xs text-sky-500">By Irchamzah</p>
+                    </div>
                   </div>
                 </div>
                 {/*  */}
@@ -197,25 +317,28 @@ export default function Home() {
                         terbaru dari IBKWU Polije. */}
                         A company profile website owned by IBKWU State
                         Polytechnic of Jember, displaying the latest information
-                        from IBKWU Polije. This website was created from 14
-                        March 2023 to 2 June 2023.
+                        from IBKWU Polije.
                       </p>
                     </div>
-                    <p className="mt-4 text-xs text-sky-500">
-                      Created By Irchamzah
-                    </p>
+                    <div>
+                      <p className="mt-4 text-xs text-sky-500">
+                        Created at 14 March 2023 - 2 June 2023
+                      </p>
+                      <p className="mt-1 text-xs text-sky-500">By Irchamzah</p>
+                    </div>
                   </div>
                 </div>
+                {/*  */}
                 {/*  */}
                 <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
                   <a
                     className="relative hover:opacity-70 duration-200"
-                    href="https://irc-portfolio.vercel.app/"
+                    href="https://github.com/NaufalMahdi/sweetacollection/graphs/contributors"
                     target="_blank"
                   >
                     <div className="h-50 overflow-hidden">
                       <Image
-                        src={"/portfolio_website/irc_sosmed.png"}
+                        src={"/portfolio_website/noimage.jpg"}
                         alt=""
                         height={350}
                         width={350}
@@ -232,74 +355,32 @@ export default function Home() {
                     <div>
                       <a
                         className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
-                        href="https://irc-portfolio.vercel.app/"
+                        href="https://github.com/NaufalMahdi/sweetacollection/graphs/contributors"
                         target="_blank"
                       >
-                        Irc Social Media
+                        Sweeta Collection
                       </a>
                       <div className="text-gray-400 text-xs mt-1">
-                        Next JS, React JS, TypeScript, MongoDB
+                        React JS, Tailwind CSS, Prisma, MongoDB
                       </div>
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
-                      <div className="text-gray-400 text-xs text-justify xl:text-sm">
-                        {/* Latihan membuat website sosial media seperti thread. */}
-                        Practice creating a social media website like a thread.
-                        This website was created from 23 March 2024 to 13 April
-                        2024.
-                      </div>
-                    </div>
-                    <p className="mt-4 text-xs text-sky-500">
-                      Created By Irchamzah
-                    </p>
-                  </div>
-                </div>
-                {/*  */}
-                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
-                  <a
-                    className="relative hover:opacity-70 duration-200"
-                    href="https://irchamzah-portfolio.vercel.app/"
-                    target="_blank"
-                  >
-                    <div className="h-50 overflow-hidden">
-                      <Image
-                        src={"/portfolio_website/irchamzah_portfolio.png"}
-                        alt=""
-                        height={350}
-                        width={350}
-                        className="h-40 object-cover"
-                      />
-                    </div>
-                    <div className="absolute left-0 top-0">
-                      <p className="bg-black bg-opacity-50 m-3 px-3 py-1 text-xs rounded">
-                        Web
+                      <p className="text-gray-400 text-xs text-justify xl:text-sm">
+                        {/* Sweeta Collection merupakan website untuk menyewa baju
+                        tari tradisional indonesia. */}{" "}
+                        Sweeta Collection is a website for renting traditional
+                        Indonesian dance costumes.
                       </p>
                     </div>
-                  </a>
-                  <div className="flex flex-col justify-between h-full p-4">
                     <div>
-                      <a
-                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
-                        href="https://irchamzah-portfolio.vercel.app/"
-                        target="_blank"
-                      >
-                        Irchamzah Portfolio
-                      </a>
-                      <div className="text-gray-400 text-xs mt-1">
-                        Next JS, React JS, TypeScript
-                      </div>
-                      <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
-                      <div className="text-gray-400 text-xs text-justify xl:text-sm">
-                        {/* Latihan membuat website sosial media seperti thread. */}
-                        Practice creating a portfolio website. This website was
-                        created from 20 April 2024 to 5 May 2024.
-                      </div>
+                      <p className="mt-4 text-xs text-sky-500">
+                        Created at 1 April 2022 - 26 June 2022
+                      </p>
+                      <p className="mt-1 text-xs text-sky-500">
+                        By Irchamzah & Group 3 Class C
+                      </p>
                     </div>
-                    <p className="mt-4 text-xs text-sky-500">
-                      Created By Irchamzah
-                    </p>
                   </div>
                 </div>
-                {/*  */}
                 <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
                   <a
                     className="relative hover:opacity-70 duration-200"
@@ -336,13 +417,17 @@ export default function Home() {
                         {/* Aplikasi pendeteksi kematangan buah naga berdasarkan
                         warna buah naga. */}
                         An application for detecting dragon fruit ripeness based
-                        on dragon fruit color. This app was created from 20
-                        December 2021 to 4 January 2022.
+                        on dragon fruit color.
                       </p>
                     </div>
-                    <p className="mt-4 text-xs text-sky-500">
-                      Created By Irchamzah & Group Class C
-                    </p>
+                    <div>
+                      <p className="mt-4 text-xs text-sky-500">
+                        Created at 20 December 2021 - 4 January 2022
+                      </p>
+                      <p className="mt-1 text-xs text-sky-500">
+                        By Irchamzah & Group 9 Class C
+                      </p>
+                    </div>
                   </div>
                 </div>
                 {/*  */}
@@ -388,63 +473,21 @@ export default function Home() {
                         The SIPAPAH application is a waste management
                         application. Our team will collect waste from residents
                         and pay for it based on the weight of the waste
-                        (plastic, paper, cardboard, etc.). This web was created
-                        from 3 June 2021 to 26 July 2021.
+                        (plastic, paper, cardboard, etc.).
                       </p>
                     </div>
-                    <p className="mt-4 text-xs text-sky-500">
-                      Created By Irchamzah & Group 1 Class B
-                    </p>
-                  </div>
-                </div>
-                {/*  */}
-                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
-                  <a
-                    className="relative hover:opacity-70 duration-200"
-                    href="https://github.com/NaufalMahdi/sweetacollection/graphs/contributors"
-                    target="_blank"
-                  >
-                    <div className="h-50 overflow-hidden">
-                      <Image
-                        src={"/portfolio_website/noimage.jpg"}
-                        alt=""
-                        height={350}
-                        width={350}
-                        className="h-40 object-cover"
-                      />
-                    </div>
-                    <div className="absolute left-0 top-0">
-                      <p className="bg-black bg-opacity-50 m-3 px-3 py-1 text-xs rounded">
-                        Web
-                      </p>
-                    </div>
-                  </a>
-                  <div className="flex flex-col justify-between h-full p-4">
                     <div>
-                      <a
-                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
-                        href="https://github.com/NaufalMahdi/sweetacollection/graphs/contributors"
-                        target="_blank"
-                      >
-                        Sweeta Collection
-                      </a>
-                      <div className="text-gray-400 text-xs mt-1">
-                        React JS, Tailwind CSS, Prisma, MongoDB
-                      </div>
-                      <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
-                      <p className="text-gray-400 text-xs text-justify xl:text-sm">
-                        {/* Sweeta Collection merupakan website untuk menyewa baju
-                        tari tradisional indonesia. */}{" "}
-                        Sweeta Collection is a website for renting traditional
-                        Indonesian dance costumes. This website was created from
-                        1 April 2022 to 26 June 2022.
+                      <p className="mt-4 text-xs text-sky-500">
+                        Created at 3 June 2021 - 26 July 2021
+                      </p>
+                      <p className="mt-1 text-xs text-sky-500">
+                        By Irchamzah & Group 1 Class B
                       </p>
                     </div>
-                    <p className="mt-4 text-xs text-sky-500">
-                      Created By Irchamzah & Group Class C
-                    </p>
                   </div>
                 </div>
+
+                {/*  */}
               </div>
             </div>
           </section>
@@ -462,148 +505,13 @@ export default function Home() {
               <div className="grid grid-cols-4 gap-y-16 gap-x-10 justify-stretch md:gap-x-32">
                 {/*  */}
                 {/*  */}
-                <div className=" flex flex-col items-center hover:opacity-60 transition duration-200">
+                <div className="nexjs flex flex-col items-center hover:opacity-60 transition duration-200">
                   <div className="relative p-2 w-full">
                     <div className="">
-                      <Image
-                        src={"/icons/css-3.svg"}
-                        alt="icon"
+                      <SiNextdotjs
                         height={128}
                         width={128}
-                        className="invert mx-auto object-center object-contain h-12 md:h-14 lg:h-20 xl:h-28"
-                      />
-                    </div>
-                    <p className="absolute right-0 top-0 bg-indigo-500 rounded-full px-[6px] py-[2px] text-[10px]">
-                      Fluent
-                    </p>
-                  </div>
-                  <div className="text-[10px] md:text-sm">CSS 3</div>
-                </div>
-                {/*  */}
-                {/*  */}
-                <div className=" flex flex-col items-center hover:opacity-60 transition duration-200">
-                  <div className="relative p-2 w-full">
-                    <div className="">
-                      <Image
-                        src={"/icons/html-5.svg"}
-                        alt="icon"
-                        height={128}
-                        width={128}
-                        className="invert mx-auto object-center object-contain h-12 md:h-14 lg:h-20 xl:h-28"
-                      />
-                    </div>
-                    <p className="absolute right-0 top-0 bg-indigo-500 rounded-full px-[6px] py-[2px] text-[10px]">
-                      Fluent
-                    </p>
-                  </div>
-                  <div className="text-[10px] md:text-sm">HTML 5</div>
-                </div>
-                {/*  */}
-                {/*  */}
-                <div className=" flex flex-col items-center hover:opacity-60 transition duration-200">
-                  <div className="relative p-2 w-full">
-                    <div className="">
-                      <Image
-                        src={"/icons/bootstrap.svg"}
-                        alt="icon"
-                        height={128}
-                        width={128}
-                        className="invert mx-auto object-center object-contain h-12 md:h-14 lg:h-20 xl:h-28"
-                      />
-                    </div>
-                    <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
-                      Intermediate
-                    </p>
-                  </div>
-                  <div className="text-[10px] md:text-sm">Bootstrap</div>
-                </div>
-                {/*  */}
-                {/*  */}
-                <div className=" flex flex-col items-center hover:opacity-60 transition duration-200">
-                  <div className="relative p-2 w-full">
-                    <div className="">
-                      <Image
-                        src={"/icons/javascript.svg"}
-                        alt="icon"
-                        height={128}
-                        width={128}
-                        className="invert mx-auto object-center object-contain h-12 md:h-14 lg:h-20 xl:h-28"
-                      />
-                    </div>
-                    <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
-                      Intermediate
-                    </p>
-                  </div>
-                  <div className="text-[10px] md:text-sm">Javascript</div>
-                </div>
-                {/*  */}
-                {/*  */}
-                <div className=" flex flex-col items-center hover:opacity-60 transition duration-200">
-                  <div className="relative p-2 w-full">
-                    <div className="">
-                      <Image
-                        src={"/icons/kotlin.svg"}
-                        alt="icon"
-                        height={128}
-                        width={128}
-                        className="invert mx-auto object-center object-contain h-12 md:h-14 lg:h-20 xl:h-28"
-                      />
-                    </div>
-                    <p className="absolute right-0 top-0 bg-gray-500 rounded-full px-[6px] py-[2px] text-[10px]">
-                      Basic
-                    </p>
-                  </div>
-                  <div className="text-[10px] md:text-sm">Kotlin</div>
-                </div>
-                {/*  */}
-                {/*  */}
-                <div className=" flex flex-col items-center hover:opacity-60 transition duration-200">
-                  <div className="relative p-2 w-full">
-                    <div className="">
-                      <Image
-                        src={"/icons/laravel.svg"}
-                        alt="icon"
-                        height={128}
-                        width={128}
-                        className="invert mx-auto object-center object-contain h-12 md:h-14 lg:h-20 xl:h-28"
-                      />
-                    </div>
-                    <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
-                      Intermediate
-                    </p>
-                  </div>
-                  <div className="text-[10px] md:text-sm">Laravel</div>
-                </div>
-                {/*  */}
-                {/*  */}
-                <div className=" flex flex-col items-center hover:opacity-60 transition duration-200">
-                  <div className="relative p-2 w-full">
-                    <div className="">
-                      <Image
-                        src={"/icons/mysql.svg"}
-                        alt="icon"
-                        height={128}
-                        width={128}
-                        className="invert mx-auto object-center object-contain h-12 md:h-14 lg:h-20 xl:h-28"
-                      />
-                    </div>
-                    <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
-                      Intermediate
-                    </p>
-                  </div>
-                  <div className="text-[10px] md:text-sm">MySQL</div>
-                </div>
-                {/*  */}
-                {/*  */}
-                <div className=" flex flex-col items-center hover:opacity-60 transition duration-200">
-                  <div className="relative p-2 w-full">
-                    <div className="">
-                      <Image
-                        src={"/icons/nextjs.svg"}
-                        alt="icon"
-                        height={128}
-                        width={128}
-                        className="invert mx-auto object-center object-contain h-12 md:h-14 lg:h-20 xl:h-28"
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
                       />
                     </div>
                     <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
@@ -614,34 +522,94 @@ export default function Home() {
                 </div>
                 {/*  */}
                 {/*  */}
-                <div className=" flex flex-col items-center hover:opacity-60 transition duration-200">
+                <div className="reactjs flex flex-col items-center hover:opacity-60 transition duration-200">
                   <div className="relative p-2 w-full">
                     <div className="">
-                      <Image
-                        src={"/icons/typescript.svg"}
-                        alt="icon"
+                      <SiReact
                         height={128}
                         width={128}
-                        className="invert mx-auto object-center object-contain h-12 md:h-14 lg:h-20 xl:h-28"
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
                       />
                     </div>
-                    <p className="absolute right-0 top-0 bg-gray-500 rounded-full px-[6px] py-[2px] text-[10px]">
-                      Basic
+                    <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
+                      Intermediate
+                    </p>
+                  </div>
+                  <div className="text-[10px] md:text-sm">React JS</div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="javascript flex flex-col items-center hover:opacity-60 transition duration-200">
+                  <div className="relative p-2 w-full">
+                    <div className="">
+                      <SiJavascript
+                        height={128}
+                        width={128}
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
+                      />
+                    </div>
+                    <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
+                      Intermediate
+                    </p>
+                  </div>
+                  <div className="text-[10px] md:text-sm">Javascript</div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="typescript flex flex-col items-center hover:opacity-60 transition duration-200">
+                  <div className="relative p-2 w-full">
+                    <div className="">
+                      <SiTypescript
+                        height={128}
+                        width={128}
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
+                      />
+                    </div>
+                    <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
+                      Intermediate
                     </p>
                   </div>
                   <div className="text-[10px] md:text-sm">Typescript</div>
                 </div>
                 {/*  */}
                 {/*  */}
-                <div className=" flex flex-col items-center hover:opacity-60 transition duration-200">
+                <div className="prisma flex flex-col items-center hover:opacity-60 transition duration-200">
+                  <div className="relative p-2 w-full">
+                    <div className="text-center justify-center">
+                      <SiPrisma className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl" />
+                    </div>
+                    <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
+                      Intermediate
+                    </p>
+                  </div>
+                  <div className="text-[10px] md:text-sm">Prisma</div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="postgresql flex flex-col items-center hover:opacity-60 transition duration-200">
                   <div className="relative p-2 w-full">
                     <div className="">
-                      <Image
-                        src={"/icons/tailwind.svg"}
-                        alt="icon"
+                      <BiLogoPostgresql
                         height={128}
                         width={128}
-                        className="invert mx-auto object-center object-contain h-12 md:h-14 lg:h-20 xl:h-28"
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
+                      />
+                    </div>
+                    <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
+                      Intermediate
+                    </p>
+                  </div>
+                  <div className="text-[10px] md:text-sm">PostgreSQL</div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="tailwindcss flex flex-col items-center hover:opacity-60 transition duration-200">
+                  <div className="relative p-2 w-full">
+                    <div className="">
+                      <SiTailwindcss
+                        height={128}
+                        width={128}
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
                       />
                     </div>
                     <p className="absolute right-0 top-0 bg-indigo-500 rounded-full px-[6px] py-[2px] text-[10px]">
@@ -654,15 +622,30 @@ export default function Home() {
                 </div>
                 {/*  */}
                 {/*  */}
-                <div className=" flex flex-col items-center hover:opacity-60 transition duration-200">
+                <div className="laravel flex flex-col items-center hover:opacity-60 transition duration-200">
                   <div className="relative p-2 w-full">
                     <div className="">
-                      <Image
-                        src={"/icons/php.svg"}
-                        alt="icon"
+                      <SiLaravel
                         height={128}
                         width={128}
-                        className="invert mx-auto object-center object-contain h-12 md:h-14 lg:h-20 xl:h-28"
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
+                      />
+                    </div>
+                    <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
+                      Intermediate
+                    </p>
+                  </div>
+                  <div className="text-[10px] md:text-sm">Laravel</div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="php flex flex-col items-center hover:opacity-60 transition duration-200">
+                  <div className="relative p-2 w-full">
+                    <div className="">
+                      <SiPhp
+                        height={128}
+                        width={128}
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
                       />
                     </div>
                     <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
@@ -673,22 +656,88 @@ export default function Home() {
                 </div>
                 {/*  */}
                 {/*  */}
-                <div className=" flex flex-col items-center hover:opacity-60 transition duration-200">
+                <div className="mysql flex flex-col items-center hover:opacity-60 transition duration-200">
                   <div className="relative p-2 w-full">
                     <div className="">
-                      <Image
-                        src={"/icons/react.svg"}
-                        alt="icon"
+                      <SiMysql
                         height={128}
                         width={128}
-                        className="invert mx-auto object-center object-contain h-12 md:h-14 lg:h-20 xl:h-28"
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
                       />
                     </div>
                     <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
                       Intermediate
                     </p>
                   </div>
-                  <div className="text-[10px] md:text-sm">React JS</div>
+                  <div className="text-[10px] md:text-sm">MySQL</div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="html5 flex flex-col items-center hover:opacity-60 transition duration-200">
+                  <div className="relative p-2 w-full">
+                    <div className="">
+                      <SiHtml5
+                        height={128}
+                        width={128}
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
+                      />
+                    </div>
+                    <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
+                      Intermediate
+                    </p>
+                  </div>
+                  <div className="text-[10px] md:text-sm">HTML 5</div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="css3 flex flex-col items-center hover:opacity-60 transition duration-200">
+                  <div className="relative p-2 w-full">
+                    <div className="">
+                      <SiCss3
+                        height={128}
+                        width={128}
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
+                      />
+                    </div>
+                    <p className="absolute right-0 top-0 bg-sky-500 rounded-full px-[6px] py-[2px] text-[10px]">
+                      Intermediate
+                    </p>
+                  </div>
+                  <div className="text-[10px] md:text-sm">CSS 3</div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="kotlin flex flex-col items-center hover:opacity-60 transition duration-200">
+                  <div className="relative p-2 w-full">
+                    <div className="">
+                      <SiKotlin
+                        height={128}
+                        width={128}
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
+                      />
+                    </div>
+                    <p className="absolute right-0 top-0 bg-gray-500 rounded-full px-[6px] py-[2px] text-[10px]">
+                      Basic
+                    </p>
+                  </div>
+                  <div className="text-[10px] md:text-sm">Kotlin</div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="bootstrap flex flex-col items-center hover:opacity-60 transition duration-200">
+                  <div className="relative p-2 w-full">
+                    <div className="">
+                      <SiBootstrap
+                        height={128}
+                        width={128}
+                        className="mx-auto object-center object-contain h-12 w-12 md:h-14 md:w-14 lg:h-20 lg:w-20 xl:h-28 xl:w-28 text-white text-8xl"
+                      />
+                    </div>
+                    <p className="absolute right-0 top-0 bg-gray-500 rounded-full px-[6px] py-[2px] text-[10px]">
+                      Basic
+                    </p>
+                  </div>
+                  <div className="text-[10px] md:text-sm">Bootstrap</div>
                 </div>
                 {/*  */}
                 {/*  */}
@@ -1009,7 +1058,7 @@ export default function Home() {
                     <div className="text-sm md:text-base">irchamzah</div>
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/irchamzah-fikri-ababil-b74008262/"
+                    href="https://github.com/irchamzah"
                     className="flex items-center gap-2 hover:opacity-60 transition duration-200"
                   >
                     <div className="text-xl md:text-2xl">
