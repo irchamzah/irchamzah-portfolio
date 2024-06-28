@@ -142,12 +142,12 @@ export default function Home() {
                       </div>
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
                       <p className="text-gray-400 text-xs text-justify xl:text-sm">
-                        {/* Sebuah website company profile milik IBKWU Politeknik
-                        Negeri Jember yang menampilkan informasi-informasi
-                        terbaru dari IBKWU Polije. */}
-                        Sebuah website yang menyediakan berbagai macam kebutuhan
+                        {/* Sebuah website yang menyediakan berbagai macam kebutuhan
                         persiapan pernikahan. (website ini masih dalam tahap
-                        pengembangan)
+                        pengembangan)  */}
+                        A website that provides a variety of wedding preparation
+                        needs. (This website is still under development) - This
+                        website was created from 9 June 2024 to Present.
                       </p>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">
@@ -197,7 +197,8 @@ export default function Home() {
                         terbaru dari IBKWU Polije. */}
                         A company profile website owned by IBKWU State
                         Polytechnic of Jember, displaying the latest information
-                        from IBKWU Polije.
+                        from IBKWU Polije. This website was created from 14
+                        March 2023 to 2 June 2023.
                       </p>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">
@@ -243,6 +244,8 @@ export default function Home() {
                       <div className="text-gray-400 text-xs text-justify xl:text-sm">
                         {/* Latihan membuat website sosial media seperti thread. */}
                         Practice creating a social media website like a thread.
+                        This website was created from 23 March 2024 to 13 April
+                        2024.
                       </div>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">
@@ -287,7 +290,8 @@ export default function Home() {
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
                       <div className="text-gray-400 text-xs text-justify xl:text-sm">
                         {/* Latihan membuat website sosial media seperti thread. */}
-                        Practice creating a portfolio website
+                        Practice creating a portfolio website. This website was
+                        created from 20 April 2024 to 5 May 2024.
                       </div>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">
@@ -332,11 +336,12 @@ export default function Home() {
                         {/* Aplikasi pendeteksi kematangan buah naga berdasarkan
                         warna buah naga. */}
                         An application for detecting dragon fruit ripeness based
-                        on dragon fruit color.
+                        on dragon fruit color. This app was created from 20
+                        December 2021 to 4 January 2022.
                       </p>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">
-                      Created By Irchamzah & Kelompok Golongan C
+                      Created By Irchamzah & Group Class C
                     </p>
                   </div>
                 </div>
@@ -383,11 +388,12 @@ export default function Home() {
                         The SIPAPAH application is a waste management
                         application. Our team will collect waste from residents
                         and pay for it based on the weight of the waste
-                        (plastic, paper, cardboard, etc.).
+                        (plastic, paper, cardboard, etc.). This web was created
+                        from 3 June 2021 to 26 July 2021.
                       </p>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">
-                      Created By Irchamzah & Kelompok 1 Golongan B
+                      Created By Irchamzah & Group 1 Class B
                     </p>
                   </div>
                 </div>
@@ -430,11 +436,12 @@ export default function Home() {
                         {/* Sweeta Collection merupakan website untuk menyewa baju
                         tari tradisional indonesia. */}{" "}
                         Sweeta Collection is a website for renting traditional
-                        Indonesian dance costumes.
+                        Indonesian dance costumes. This website was created from
+                        1 April 2022 to 26 June 2022.
                       </p>
                     </div>
                     <p className="mt-4 text-xs text-sky-500">
-                      Created By Irchamzah & Kelompok Golongan C
+                      Created By Irchamzah & Group Class C
                     </p>
                   </div>
                 </div>
