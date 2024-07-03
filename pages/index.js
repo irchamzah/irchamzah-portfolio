@@ -100,7 +100,7 @@ export default function Home() {
                     majoring in Information Technology, specifically in the
                     Informatics Engineering program (D4). Currently delving into
                     several technologies such as React Js, Next Js, Tailwind
-                    CSS, Mongo DB, Laravel, and Mysql.
+                    CSS, PostgreSQL, Prisma ORM, Mongo DB, Laravel, and Mysql.
                   </p>
                 </div>
                 <div className=" overflow-hidden min-w-44 max-h-44 bg-gray-300 relative mx-auto my-auto object-center hidden md:block xl:max-h-60">
@@ -168,7 +168,15 @@ export default function Home() {
                         persiapan pernikahan. (website ini masih dalam tahap
                         pengembangan)  */}
                         A website that provides a variety of wedding preparation
-                        needs. (This website is still under development)
+                        needs. click{" "}
+                        <a
+                          href="https://github.com/irchamzah/japernik/network"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                        >
+                          this link
+                        </a>{" "}
+                        to see the source code. (This website is still under
+                        development)
                       </p>
                     </div>
                     <div>
@@ -216,7 +224,14 @@ export default function Home() {
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
                       <div className="text-gray-400 text-xs text-justify xl:text-sm">
                         {/* Latihan membuat website sosial media seperti thread. */}
-                        Practice creating a portfolio website.
+                        Practice creating a portfolio website. click{" "}
+                        <a
+                          href="https://github.com/irchamzah/irchamzah-portfolio/network"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                        >
+                          this link
+                        </a>{" "}
+                        to see the source code.
                       </div>
                     </div>
                     <div>
@@ -265,6 +280,14 @@ export default function Home() {
                       <div className="text-gray-400 text-xs text-justify xl:text-sm">
                         {/* Latihan membuat website sosial media seperti thread. */}
                         Practice creating a social media website like a thread.
+                        click{" "}
+                        <a
+                          href="https://github.com/irchamzah/irc_portfolio/network"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                        >
+                          this link
+                        </a>{" "}
+                        to see the source code.
                       </div>
                     </div>
                     <div>
@@ -317,7 +340,14 @@ export default function Home() {
                         terbaru dari IBKWU Polije. */}
                         A company profile website owned by IBKWU State
                         Polytechnic of Jember, displaying the latest information
-                        from IBKWU Polije.
+                        from IBKWU Polije. click{" "}
+                        <a
+                          href="https://github.com/irchamzah/IBKWU_Laravel/network"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                        >
+                          this link
+                        </a>{" "}
+                        to see the source code.
                       </p>
                     </div>
                     <div>
@@ -368,7 +398,14 @@ export default function Home() {
                         {/* Sweeta Collection merupakan website untuk menyewa baju
                         tari tradisional indonesia. */}{" "}
                         Sweeta Collection is a website for renting traditional
-                        Indonesian dance costumes.
+                        Indonesian dance costumes. click{" "}
+                        <a
+                          href="https://github.com/NaufalMahdi/sweetacollection/graphs/contributors"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                        >
+                          this link
+                        </a>{" "}
+                        to see the source code.
                       </p>
                     </div>
                     <div>
@@ -417,7 +454,14 @@ export default function Home() {
                         {/* Aplikasi pendeteksi kematangan buah naga berdasarkan
                         warna buah naga. */}
                         An application for detecting dragon fruit ripeness based
-                        on dragon fruit color.
+                        on dragon fruit color. click{" "}
+                        <a
+                          href="https://github.com/kurniadhn/Semester_5_Citra_Visual_Buah_Naga/graphs/contributors"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                        >
+                          this link
+                        </a>{" "}
+                        to see the source code.
                       </p>
                     </div>
                     <div>
@@ -473,7 +517,14 @@ export default function Home() {
                         The SIPAPAH application is a waste management
                         application. Our team will collect waste from residents
                         and pay for it based on the weight of the waste
-                        (plastic, paper, cardboard, etc.).
+                        (plastic, paper, cardboard, etc.). click{" "}
+                        <a
+                          href="https://github.com/irchamzah/Kelompok1_WEB_GolonganB/network"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                        >
+                          this link
+                        </a>{" "}
+                        to see the source code.
                       </p>
                     </div>
                     <div>
