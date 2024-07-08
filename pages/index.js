@@ -172,11 +172,21 @@ export default function Home() {
                         <a
                           href="https://github.com/irchamzah/japernik/network"
                           className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
                         >
                           this link
                         </a>{" "}
                         to see the source code. (This website is still under
-                        development)
+                        development). <br />
+                        This is the{" "}
+                        <a
+                          href="https://japernik.netlify.app/"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
+                        >
+                          second link
+                        </a>{" "}
+                        to access the website.
                       </p>
                     </div>
                     <div>
@@ -228,6 +238,7 @@ export default function Home() {
                         <a
                           href="https://github.com/irchamzah/irchamzah-portfolio/network"
                           className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
                         >
                           this link
                         </a>{" "}
@@ -284,6 +295,7 @@ export default function Home() {
                         <a
                           href="https://github.com/irchamzah/irc_portfolio/network"
                           className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
                         >
                           this link
                         </a>{" "}
@@ -344,6 +356,7 @@ export default function Home() {
                         <a
                           href="https://github.com/irchamzah/IBKWU_Laravel/network"
                           className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
                         >
                           this link
                         </a>{" "}
@@ -402,6 +415,7 @@ export default function Home() {
                         <a
                           href="https://github.com/NaufalMahdi/sweetacollection/graphs/contributors"
                           className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
                         >
                           this link
                         </a>{" "}
@@ -458,6 +472,7 @@ export default function Home() {
                         <a
                           href="https://github.com/kurniadhn/Semester_5_Citra_Visual_Buah_Naga/graphs/contributors"
                           className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
                         >
                           this link
                         </a>{" "}
@@ -521,6 +536,7 @@ export default function Home() {
                         <a
                           href="https://github.com/irchamzah/Kelompok1_WEB_GolonganB/network"
                           className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
                         >
                           this link
                         </a>{" "}
