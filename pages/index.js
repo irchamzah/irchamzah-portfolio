@@ -131,7 +131,7 @@ export default function Home() {
                 <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
                   <a
                     className="relative hover:opacity-70 duration-200"
-                    href="https://www.youtube.com/watch?v=qgFIvFJj6Og
+                    href="https://www.youtube.com/watch?v=3Ehy9mhUC3I
                   "
                     target="_blank"
                   >
@@ -154,7 +154,7 @@ export default function Home() {
                     <div>
                       <a
                         className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
-                        href="https://www.youtube.com/watch?v=qgFIvFJj6Og"
+                        href="https://www.youtube.com/watch?v=3Ehy9mhUC3I"
                         target="_blank"
                       >
                         News Website (Test Code)
