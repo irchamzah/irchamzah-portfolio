@@ -131,6 +131,71 @@ export default function Home() {
                 <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
                   <a
                     className="relative hover:opacity-70 duration-200"
+                    href="https://irchamzah-store-67d071522e4a.herokuapp.com"
+                    target="_blank"
+                  >
+                    <div className=" overflow-hidden">
+                      <Image
+                        src={"/portfolio_website/ircStore.png"}
+                        alt=""
+                        height={350}
+                        width={350}
+                        className="h-40 object-cover"
+                      />
+                    </div>
+                    <div className="absolute left-0 top-0">
+                      <p className="bg-black bg-opacity-50 m-3 px-3 py-1 text-xs rounded">
+                        Web
+                      </p>
+                    </div>
+                  </a>
+                  <div className="flex flex-col justify-between h-full p-4">
+                    <div>
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://irchamzah-store-67d071522e4a.herokuapp.com"
+                        target="_blank"
+                      >
+                        E-Commerce Website (Test Code)
+                      </a>
+                      <div className="text-gray-400 text-xs mt-1">
+                        Laravel 9, Bootstrap, MySQL, Midtrans
+                      </div>
+                      <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
+                      <p className="text-gray-400 text-xs text-justify xl:text-sm">
+                        An E-Commerce website using Laravel + Midtrans (this
+                        website was created for coding test). click{" "}
+                        <a
+                          href="https://github.com/irchamzah/test_midtrans"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
+                        >
+                          this link
+                        </a>{" "}
+                        to see the source code. <br />
+                        <br />
+                        <a
+                          href="https://drive.google.com/file/d/1u6Pwoqb6UHDKDDqps1yIZzXOhE2f2O3M/view?usp=sharing"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
+                        >
+                          See website&apos;s preview video
+                        </a>
+                      </p>
+                    </div>
+                    <div>
+                      <p className="mt-4 text-xs text-sky-500">
+                        Created at 29 July 2024 - 31 July 2024
+                      </p>
+                      <p className="mt-1 text-xs text-sky-500">By Irchamzah</p>
+                    </div>
+                  </div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
                     href="https://www.youtube.com/watch?v=3Ehy9mhUC3I
                   "
                     target="_blank"
@@ -457,7 +522,7 @@ export default function Home() {
                         IBKWU Polije
                       </a>
                       <div className="text-gray-400 text-xs mt-1">
-                        Laravel, MySQL, Tailwind CSS
+                        Laravel 9, MySQL, Tailwind CSS
                       </div>
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
                       <p className="text-gray-400 text-xs text-justify xl:text-sm">
@@ -635,7 +700,7 @@ export default function Home() {
                         SIPAPAH - Sistem Informasi Pengolah Sampah
                       </a>
                       <div className="text-gray-400 text-xs mt-1">
-                        Laravel, Bootstrap, MySQL
+                        Laravel 8, Bootstrap, MySQL
                       </div>
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
                       <p className="text-gray-400 text-xs text-justify xl:text-sm">
