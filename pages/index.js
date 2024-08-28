@@ -131,6 +131,252 @@ export default function Home() {
                 <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
                   <a
                     className="relative hover:opacity-70 duration-200"
+                    href="https://ircchat.netlify.app/"
+                    target="_blank"
+                  >
+                    <div className=" overflow-hidden">
+                      <Image
+                        src={"/portfolio_website/inbox_tasks_test.png"}
+                        alt=""
+                        height={350}
+                        width={350}
+                        className="h-40 object-cover"
+                      />
+                    </div>
+                    <div className="absolute left-0 top-0">
+                      <p className="bg-black bg-opacity-50 m-3 px-3 py-1 text-xs rounded">
+                        Web
+                      </p>
+                    </div>
+                  </a>
+                  <div className="flex flex-col justify-between h-full p-4">
+                    <div>
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://ircchat.netlify.app/"
+                        target="_blank"
+                      >
+                        Inbox App (Test Code)
+                      </a>
+                      <div className="text-gray-400 text-xs mt-1">
+                        React JS, Tailwind CSS, jsonplaceholder API
+                      </div>
+                      <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
+                      <p className="text-gray-400 text-xs text-justify xl:text-sm">
+                        An Inbox App website created for a coding test. click{" "}
+                        <a
+                          href="https://github.com/irchamzah/inbox_tasks_test"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
+                        >
+                          this link
+                        </a>{" "}
+                        to see the source code. <br />
+                      </p>
+                    </div>
+                    <div>
+                      <p className="mt-4 text-xs text-sky-500">
+                        Created at 21 August 2024 - 23 August 2024
+                      </p>
+                      <p className="mt-1 text-xs text-sky-500">By Irchamzah</p>
+                    </div>
+                  </div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
+                    href="https://www.youtube.com/watch?v=aZs6NdyTyY4"
+                    target="_blank"
+                  >
+                    <div className=" overflow-hidden">
+                      <Image
+                        src={"/portfolio_website/sewa_mobil.png"}
+                        alt=""
+                        height={350}
+                        width={350}
+                        className="h-40 object-cover"
+                      />
+                    </div>
+                    <div className="absolute left-0 top-0">
+                      <p className="bg-black bg-opacity-50 m-3 px-3 py-1 text-xs rounded">
+                        Web
+                      </p>
+                    </div>
+                  </a>
+                  <div className="flex flex-col justify-between h-full p-4">
+                    <div>
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://www.youtube.com/watch?v=aZs6NdyTyY4"
+                        target="_blank"
+                      >
+                        Sewa Mobil (Test Code)
+                      </a>
+                      <div className="text-gray-400 text-xs mt-1">
+                        Laravel (Backend API), VueJS (Frontend), Tailwind CSS,
+                        PostgreSQL
+                      </div>
+                      <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
+                      <p className="text-gray-400 text-xs text-justify xl:text-sm">
+                        A car rental website created for a coding test. click{" "}
+                        <a
+                          href="https://github.com/irchamzah/sewa_mobil"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
+                        >
+                          this link
+                        </a>{" "}
+                        to see the source code. <br />
+                        <br />
+                        <a
+                          href="https://www.youtube.com/watch?v=aZs6NdyTyY4"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
+                        >
+                          See website&apos;s preview video
+                        </a>
+                      </p>
+                    </div>
+                    <div>
+                      <p className="mt-4 text-xs text-sky-500">
+                        Created at 18 August 2024 - 20 August 2024
+                      </p>
+                      <p className="mt-1 text-xs text-sky-500">By Irchamzah</p>
+                    </div>
+                  </div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
+                    href="https://irc-store-0905d7676d17.herokuapp.com/"
+                    target="_blank"
+                  >
+                    <div className=" overflow-hidden">
+                      <Image
+                        src={"/portfolio_website/irc_store.png"}
+                        alt=""
+                        height={350}
+                        width={350}
+                        className="h-40 object-cover"
+                      />
+                    </div>
+                    <div className="absolute left-0 top-0">
+                      <p className="bg-black bg-opacity-50 m-3 px-3 py-1 text-xs rounded">
+                        Web
+                      </p>
+                    </div>
+                  </a>
+                  <div className="flex flex-col justify-between h-full p-4">
+                    <div>
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://irc-store-0905d7676d17.herokuapp.com/"
+                        target="_blank"
+                      >
+                        ircStore (Practice)
+                      </a>
+                      <div className="text-gray-400 text-xs mt-1">
+                        Laravel, Tailwind, PostgreSQL
+                      </div>
+                      <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
+                      <p className="text-gray-400 text-xs text-justify xl:text-sm">
+                        A website store for my own branded products (in
+                        planning). I&apos;m planning to sell Tailwind templates,
+                        clothing, or other items. This website includes an admin
+                        side for uploading products. click{" "}
+                        <a
+                          href="https://github.com/irchamzah/ircStore_BackEnd_Laravel"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
+                        >
+                          this link
+                        </a>{" "}
+                        to see the source code. <br />
+                        <br />
+                        <a
+                          href="https://www.youtube.com/watch?v=VzgLSJmUpSY"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
+                        >
+                          See website&apos;s preview video
+                        </a>
+                      </p>
+                    </div>
+                    <div>
+                      <p className="mt-4 text-xs text-sky-500">
+                        Created at 7 August 2024 - 12 August 2024
+                      </p>
+                      <p className="mt-1 text-xs text-sky-500">By Irchamzah</p>
+                    </div>
+                  </div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
+                    href="https://e-commerce-native.vercel.app"
+                    target="_blank"
+                  >
+                    <div className=" overflow-hidden">
+                      <Image
+                        src={"/portfolio_website/web-native-e-commerce.jpg"}
+                        alt=""
+                        height={350}
+                        width={350}
+                        className="h-40 object-cover"
+                      />
+                    </div>
+                    <div className="absolute left-0 top-0">
+                      <p className="bg-black bg-opacity-50 m-3 px-3 py-1 text-xs rounded">
+                        Web
+                      </p>
+                    </div>
+                  </a>
+                  <div className="flex flex-col justify-between h-full p-4">
+                    <div>
+                      <a
+                        className="text-base font-bold text-sky-500 xl:text-lg hover:opacity-80 duration-200"
+                        href="https://e-commerce-native.vercel.app"
+                        target="_blank"
+                      >
+                        Web Native E-Commerce (Practice)
+                      </a>
+                      <div className="text-gray-400 text-xs mt-1">
+                        HTML, CSS, JavaScript
+                      </div>
+                      <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
+                      <p className="text-gray-400 text-xs text-justify xl:text-sm">
+                        A native web application created to practice building a
+                        responsive website interface using only HTML, CSS, and
+                        JavaScript. click{" "}
+                        <a
+                          href="https://github.com/irchamzah/E-Commerce_Native"
+                          className="underline text-sky-500 hover:opacity-90 text-nowrap"
+                          target="_blank"
+                        >
+                          this link
+                        </a>{" "}
+                        to see the source code. <br />
+                      </p>
+                    </div>
+                    <div>
+                      <p className="mt-4 text-xs text-sky-500">
+                        Created at 2 August 2024 - 6 August 2024
+                      </p>
+                      <p className="mt-1 text-xs text-sky-500">By Irchamzah</p>
+                    </div>
+                  </div>
+                </div>
+                {/*  */}
+                {/*  */}
+                <div className="overflow-hidden flex flex-col justify-stretch bg-gray-900 min-w-72 md:min-w-full">
+                  <a
+                    className="relative hover:opacity-70 duration-200"
                     href="https://irchamzah-store-67d071522e4a.herokuapp.com"
                     target="_blank"
                   >
@@ -336,7 +582,7 @@ export default function Home() {
                         href="http://japernik.vercel.app/"
                         target="_blank"
                       >
-                        Japernik (Jasa Pernikahan)
+                        Japernik (Practice)
                       </a>
                       <div className="text-gray-400 text-xs mt-1">
                         Next JS, TypeScript, Prisma, PostgreSQL, Tailwind CSS
@@ -370,7 +616,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="mt-4 text-xs text-sky-500">
-                        Created at 9 June 2024 - Present
+                        Created at 9 June 2024 - 28 July 2024
                       </p>
                       <p className="mt-1 text-xs text-sky-500">By Irchamzah</p>
                     </div>
@@ -461,7 +707,7 @@ export default function Home() {
                         href="https://irc-portfolio.vercel.app/"
                         target="_blank"
                       >
-                        Irc Social Media
+                        Irc Social Media (Practice)
                       </a>
                       <div className="text-gray-400 text-xs mt-1">
                         Next JS, React JS, TypeScript, MongoDB
@@ -519,7 +765,7 @@ export default function Home() {
                         href="https://www.youtube.com/watch?v=FkZSDkBGqc4"
                         target="_blank"
                       >
-                        IBKWU Polije
+                        IBKWU Polije (Task)
                       </a>
                       <div className="text-gray-400 text-xs mt-1">
                         Laravel 9, MySQL, Tailwind CSS
@@ -580,7 +826,7 @@ export default function Home() {
                         href="https://github.com/NaufalMahdi/sweetacollection/graphs/contributors"
                         target="_blank"
                       >
-                        Sweeta Collection
+                        Sweeta Collection (Task)
                       </a>
                       <div className="text-gray-400 text-xs mt-1">
                         React JS, Tailwind CSS, Prisma, MongoDB
@@ -639,7 +885,7 @@ export default function Home() {
                         href="https://www.youtube.com/watch?v=FPcHrprWOJ8"
                         target="_blank"
                       >
-                        KBN App
+                        KBN App (Task)
                       </a>
                       <div className="text-gray-400 text-xs mt-1">MATLAB</div>
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
@@ -697,7 +943,7 @@ export default function Home() {
                         href="https://www.youtube.com/watch?v=gyDoLoOcLwk"
                         target="_blank"
                       >
-                        SIPAPAH - Sistem Informasi Pengolah Sampah
+                        SIPAPAH - Sistem Informasi Pengolah Sampah (Task)
                       </a>
                       <div className="text-gray-400 text-xs mt-1">
                         Laravel 8, Bootstrap, MySQL
