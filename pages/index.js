@@ -654,7 +654,7 @@ export default function Home() {
                         Irchamzah Portfolio
                       </a>
                       <div className="text-gray-400 text-xs mt-1">
-                        Next JS, React JS, TypeScript
+                        Next JS, TypeScript
                       </div>
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
                       <div className="text-gray-400 text-xs text-justify xl:text-sm">
@@ -710,7 +710,7 @@ export default function Home() {
                         Irc Social Media (Practice)
                       </a>
                       <div className="text-gray-400 text-xs mt-1">
-                        Next JS, React JS, TypeScript, MongoDB
+                        Next JS, TypeScript, MongoDB
                       </div>
                       <div className="h-[1px] w-24 my-4 bg-gray-400"></div>
                       <div className="text-gray-400 text-xs text-justify xl:text-sm">
